@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What was NVIDIA's gross margin in Q4 FY2026?",
+    "ground_truth": "NVIDIA's GAAP gross margin in Q4 FY2026 was 75.0%, and non-GAAP gross margin was 75.2%."
+  },
+  {
+    "question": "What was NVIDIA's revenue growth year-over-year in Q4 FY2026?",
+    "ground_truth": "NVIDIA's revenue in Q4 FY2026 was $68,127 million, representing 73% year-over-year growth compared to Q4 FY2025."
+  },
+  {
+    "question": "What was NVIDIA's net income in Q4 FY2026?",
+    "ground_truth": "NVIDIA's GAAP net income in Q4 FY2026 was $42,960 million, up 94% year-over-year. Non-GAAP net income was $39,552 million."
+  },
+  {
+    "question": "How did NVIDIA's operating income change from Q3 to Q4 FY2026?",
+    "ground_truth": "NVIDIA's GAAP operating income increased from $36,010 million in Q3 FY2026 to $44,299 million in Q4 FY2026, a quarter-over-quarter increase of 23%."
+  },
+  {
+    "question": "What were NVIDIA's operating expenses in Q4 FY2026?",
+    "ground_truth": "NVIDIA's GAAP operating expenses in Q4 FY2026 were $6,794 million, up 16% quarter-over-quarter and 45% year-over-year."
+  }
+]

@@ -1,0 +1,55 @@
+# API keys — NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# FAISS indexes (large binary files, rebuilt on upload)
+faiss_index_*/
+
+# RAGAS outputs
+backend/eval_results*.json
+
+# Node
+frontend/node_modules/
+frontend/.next/
+
+# macOS
+.DS_Store
+
+
+# --- VECTOR DB ---
+# 除了你写的 faiss_index_，有些库会生成 .index 或 .pkl 文件
+*.index
+*.pkl
+vector_store/
+
+# --- LOGS ---
+# 避免上传本地运行的调试日志
+*.log
+backend/logs/
+
+# --- DATA SCIENCE / JUPYTER ---
+# 如果你本地写过测试用的 Notebook，建议屏蔽这些缓存
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- IDE ---
+# 屏蔽 VS Code 或 PyCharm 的本地设置
+.vscode/
+.idea/
+
+# --- DATA & PDF ---
+# 保护你的原始财报文件，不要把上传的 PDF 传到 GitHub
+backend/data/*.pdf
+backend/uploads/
+*.pdf
+
+*.pdf
+
+.ipynb_checkpoints
