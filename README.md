@@ -1,4 +1,5 @@
-# FinSight — AI-Powered Financial Research Platform
+# FinSight 1.0 — Agentic RAG Financial Research Platform
+
 
 A production-grade agentic RAG system for financial document analysis. Upload earnings reports, ask questions, and get answers grounded in the source — with quantitative evaluation metrics to prove it.
 
